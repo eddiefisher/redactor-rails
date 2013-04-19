@@ -10,15 +10,11 @@ This gem bundles Redactor version 8.2.2 which is the most recent version as of J
 
 Add this line to your application's Gemfile:
 
-    gem 'redactor-rails'
+    gem 'redactor-rails', :git => 'git://github.com/eddiefisher/redactor-rails.git'
 
 And then execute:
 
     $ bundle install
-
-Or install it yourself as:
-
-    $ gem install redactor-rails
 
 ### Now generate models for store uploading files
 
